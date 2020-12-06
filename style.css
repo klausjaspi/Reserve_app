@@ -73,7 +73,7 @@ nav{
 
 .presentation{
     display: flex;
-    width: 80%;
+    width: 150%;
     margin: auto;
     min-height: 80vh;
     align-items: center;
@@ -301,6 +301,48 @@ table {
     border-style: solid;
     border-color: #394a6d;
 }
+
+
+
+
+
+.presentation .emailinput{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3b3b3b;
+    height: 60px;
+    line-height: 60px;
+    background: #ffffff;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #394a6d;
+}
+
+.presentation .passinput{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3b3b3b;
+    height: 60px;
+    line-height: 60px;
+    background: #ffffff;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #394a6d;
+}
+
+
 .custom-options {
     position: absolute;
     display: block;
@@ -316,6 +358,8 @@ table {
     pointer-events: none;
     z-index: 2;
 }
+
+
 
 .demo{
     position: relative;
